@@ -12,6 +12,9 @@
         <!-- log -->
         <slf4j.version>1.7.21</slf4j.version>
         <logback.version>1.1.7</logback.version>
+
+        <!-- utils -->
+        <guava.version>20.0</guava.version>
     </properties>
 
     <dependencies>
@@ -45,6 +48,13 @@
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
             <version>${logback.version}</version>
+        </dependency>
+
+        <!-- utils -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
         </dependency>
     </dependencies>
 
