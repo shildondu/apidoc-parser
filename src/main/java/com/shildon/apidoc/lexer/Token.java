@@ -1,7 +1,7 @@
 package com.shildon.apidoc.lexer;
 
 /**
- * 词素
+ * 词法单元
  * Created by Shildon on 2018/3/31.
  */
 public class Token {
